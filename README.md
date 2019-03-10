@@ -4,7 +4,7 @@
 
  ## Course
   - [x] 00.Getting Setup
-    > - check-date : 2019-03-10
+    - check-date : 2019-03-10
 
   - [x] 01.Javascript Drum Kit
     - check-date : 2019-03-10
