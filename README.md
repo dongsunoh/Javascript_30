@@ -12,7 +12,9 @@
       + addEventListener(`transitionend`, functionName) : css의 transition 종료 후 실행되는 이벤트 정의
       + audio.currentTime = 0 : Play 지점 설정
        
-  - [ ] 02.CSS + JS Clock
+  - [x] 02.CSS + JS Clock
+    - check-date : 2019-03-10
+  
   - [ ] 03.Playing with CSS Variables and JS
   - [ ] 04.Array Cardio Day 1
   - [ ] 05.Flex Panels Image Gallery
