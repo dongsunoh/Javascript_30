@@ -5,7 +5,13 @@
  ## Course
   - [x] 00.Getting Setup
     > - check-date : 2019-03-10
-  - [ ] 01.Javascript Drum Kit
+
+  - [x] 01.Javascript Drum Kit
+    - check-date : 2019-03-10
+      + kdb tag : 사용자의 입력(키보드나 음성명령)을 정의
+      + addEventListener(`transitionend`, functionName) : css의 transition 종료 후 실행되는 이벤트 정의
+      + audio.currentTime = 0 : Play 지점 설정
+       
   - [ ] 02.CSS + JS Clock
   - [ ] 03.Playing with CSS Variables and JS
   - [ ] 04.Array Cardio Day 1
