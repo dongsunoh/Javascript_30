@@ -15,7 +15,11 @@
   - [x] 02.CSS + JS Clock
     - check-date : 2019-03-10
   
-  - [ ] 03.Playing with CSS Variables and JS
+  - [x] 03.Playing with CSS Variables and JS
+    - check-date : 2019-03-11
+      + this.dataset 사용시 html data-???로 시작하는 속성 값들을 object로 가져옴. 
+      + document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix); 코드를 이용하여 css의 :root에 사용된 변수 값들 변경 가능
+      
   - [ ] 04.Array Cardio Day 1
   - [ ] 05.Flex Panels Image Gallery
   - [ ] 06.Ajax Type Ahead
