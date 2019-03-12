@@ -20,7 +20,13 @@
       + this.dataset 사용시 html data-???로 시작하는 속성 값들을 object로 가져옴. 
       + document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix); 코드를 이용하여 css의 :root에 사용된 변수 값들 변경 가능
       
-  - [ ] 04.Array Cardio Day 1
+  - [x] 04.Array Cardio Day 1
+    - check-date : 2019-03-11 ~ 2019-03-12
+      + Array.prototype.filter
+      + Array.prototype.map : 배열.map((요소, 인덱스, 배열) => { return 요소 });
+      + Array.prototype.sort
+      + Array.prototype.reduce : 배열.reduce((누적값, 현잿값, 인덱스, 요소) => { return 결과 }, 초깃값); 
+      +  
   - [ ] 05.Flex Panels Image Gallery
   - [ ] 06.Ajax Type Ahead
   - [ ] 07.Array Cardio Day 2
