@@ -27,7 +27,9 @@
       + Array.prototype.sort
       + Array.prototype.reduce : 배열.reduce((누적값, 현잿값, 인덱스, 요소) => { return 결과 }, 초깃값); 
       +  
-  - [ ] 05.Flex Panels Image Gallery
+  - [x] 05.Flex Panels Image Gallery
+    - check-date : 2019-03-12 
+
   - [ ] 06.Ajax Type Ahead
   - [ ] 07.Array Cardio Day 2
   - [ ] 08.Fun with HTML5 Canvas
