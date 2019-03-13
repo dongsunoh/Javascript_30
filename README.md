@@ -36,7 +36,14 @@
       + x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','); : 숫자 3자리마다 , 표시
       + fetch API
        
-  - [ ] 07.Array Cardio Day 2
+  - [x] 07.Array Cardio Day 2
+    - check-date : 2019-03-13 
+      + Array.prototype.some : 배열 안의 어떤 요소라도 주어진 판별 함수를 통과하는지 테스트합니다.
+      + Array.prototype.every : every() 메서드는 배열 안의 모든 요소가 주어진 판별 함수를 통과하는지 테스트합니다.
+      + Array.prototype.find : 메서드는 주어진 판별 함수를 만족하는 첫 번째 요소의 값을 반환합니다. 그런 요소가 없다면 undefined를 반환합니다.
+      + Array.prototype.findIndex : findIndex() 메서드는 주어진 판별 함수를 만족하는 배열의 첫 번째 요소에 대한 인덱스를 반환합니다. 만족하는 요소가 없으면 -1을 반환합니다.
+      + Array.prototype.slice : slice() 메서드는 어떤 배열의 begin부터 end까지(end 미포함)에 대한 얕은 복사본을 새로운 배열 객체로 반환합니다. 원본 배열은 수정되지 않습니다.
+  
   - [ ] 08.Fun with HTML5 Canvas
   - [ ] 09.14 Must Know Dev Tools Tricks
   - [ ] 10.Hold Shift to Check Multiple Checkboxes
