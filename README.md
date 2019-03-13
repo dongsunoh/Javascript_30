@@ -30,7 +30,12 @@
   - [x] 05.Flex Panels Image Gallery
     - check-date : 2019-03-12 
 
-  - [ ] 06.Ajax Type Ahead
+  - [x] 06.Ajax Type Ahead
+    - check-date : 2019-03-13
+      + join() 메서드는 배열의 모든 요소를 연결해 하나의 문자열로 만듭니다.
+      + x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','); : 숫자 3자리마다 , 표시
+      + fetch API
+       
   - [ ] 07.Array Cardio Day 2
   - [ ] 08.Fun with HTML5 Canvas
   - [ ] 09.14 Must Know Dev Tools Tricks
