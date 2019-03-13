@@ -22,11 +22,13 @@
       
   - [x] 04.Array Cardio Day 1
     - check-date : 2019-03-11 ~ 2019-03-12
-      + Array.prototype.filter
-      + Array.prototype.map : 배열.map((요소, 인덱스, 배열) => { return 요소 });
-      + Array.prototype.sort
-      + Array.prototype.reduce : 배열.reduce((누적값, 현잿값, 인덱스, 요소) => { return 결과 }, 초깃값); 
-      +  
+      + Array.prototype.filter : filter() 메서드는 주어진 판별 함수를 통과하는 요소를 모아 새로운 배열로 만들어 반환합니다.
+      + Array.prototype.map : map() 메서드는 배열 내의 모든 요소 각각에 대하여 주어진 함수를 호출한 결과를 모아 새로운 배열을 반환합니다.
+                              배열.map((요소, 인덱스, 배열) => { return 요소 });
+      + Array.prototype.sort: sort() 메서드는 배열의 요소를 적절한 위치에 정렬한 후 그 배열을 반환합니다. 정렬은 stable sort가 아닐 수 있습니다. 기                               본 정렬 순서는 문자열의 유니코드 코드 포인트를 따릅니다. 정렬 속도와 복잡도는 각 구현방식에 따라 다를 수 있습니다.
+      + Array.prototype.reduce : reduce() 메서드는 배열의 각 요소에 대해 주어진 리듀서(reducer) 함수를 실행하고, 하나의 결과값을 반환합니다.
+                                 배열.reduce((누적값, 현잿값, 인덱스, 요소) => { return 결과 }, 초깃값);
+                     
   - [x] 05.Flex Panels Image Gallery
     - check-date : 2019-03-12 
 
