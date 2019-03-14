@@ -64,7 +64,10 @@
       +  console.time, console.timeEnd
       +  console.table
        
-  - [ ] 10.Hold Shift to Check Multiple Checkboxes
+  - [x] 10.Hold Shift to Check Multiple Checkboxes
+     - check-date : 2019-03-14
+      +  KeyboardEvent.shiftKey : Shift 키가 눌 렸는지 (true) 또는 표시되지 않는지 (false) 나타냄.
+        
   - [ ] 11.Custom HTML5 Video Player
   - [ ] 12.Key Sequence Detection (KONAMI CODE)
   - [ ] 13.Slide In on Scroll
