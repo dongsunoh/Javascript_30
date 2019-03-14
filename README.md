@@ -68,7 +68,10 @@
      - check-date : 2019-03-14
       +  KeyboardEvent.shiftKey : Shift 키가 눌 렸는지 (true) 또는 표시되지 않는지 (false) 나타냄.
         
-  - [ ] 11.Custom HTML5 Video Player
+  - [x] 11.Custom HTML5 Video Player
+    - check-date : 2019-03-14
+      + HTMLMediaElement url :  https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement (ex: click, play, pause, timeupdate...)
+      + 
   - [ ] 12.Key Sequence Detection (KONAMI CODE)
   - [ ] 13.Slide In on Scroll
   - [ ] 14.Object and Arrays - Reference VS Copy
