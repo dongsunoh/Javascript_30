@@ -50,7 +50,20 @@
     - check-date : 2019-03-13 
       + canvas 태그
 
-  - [ ] 09.14 Must Know Dev Tools Tricks
+  - [x] 09.14 Must Know Dev Tools Tricks
+    - check-date : 2019-03-14
+      +  console.log
+      +  console.warn
+      +  console.error
+      +  console.info
+      +  console.assert
+      +  console.clear
+      +  console.dir
+      +  console.group(console.groupCollapsed), console.groupEnd
+      +  console.count
+      +  console.time, console.timeEnd
+      +  console.table
+       
   - [ ] 10.Hold Shift to Check Multiple Checkboxes
   - [ ] 11.Custom HTML5 Video Player
   - [ ] 12.Key Sequence Detection (KONAMI CODE)
