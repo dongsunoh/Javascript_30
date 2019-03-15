@@ -7,6 +7,24 @@
 </head>
 <body>
 <script>
+
+  const pressed = [];
+  const secretCode = 'wesbos';
+
+  window.addEventListener('keyup', (event) => {
+    console.log(event.key);
+    pressed.push(event.key);
+    
+    // 6자리 이상의 문자 입력 시 처음에 입력했던 문자가 하나씩 제거
+    pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+    
+    if( pressed.join('').includes(secretCode)) {
+      console.log('DING DING!');
+      cornify_add();
+    }
+    
+    console.log(pressed);
+  });
 </script>
 </body>
 </html>

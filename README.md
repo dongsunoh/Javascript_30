@@ -71,8 +71,11 @@
   - [x] 11.Custom HTML5 Video Player
     - check-date : 2019-03-14
       + HTMLMediaElement url :  https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement (ex: click, play, pause, timeupdate...)
-      + 
-  - [ ] 12.Key Sequence Detection (KONAMI CODE)
+  
+  - [x] 12.Key Sequence Detection (KONAMI CODE)
+    - check-date : 2019-03-15
+      + Array.prototype.splice : splice() 메서드는 배열의 기존 요소를 삭제 또는 교체 하거나 새 요소를 추가여 배열의 내용을 변경
+       
   - [ ] 13.Slide In on Scroll
   - [ ] 14.Object and Arrays - Reference VS Copy
   - [ ] 15.LocalStorage and Event Delegation
