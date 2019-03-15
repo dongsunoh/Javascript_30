@@ -75,8 +75,13 @@
   - [x] 12.Key Sequence Detection (KONAMI CODE)
     - check-date : 2019-03-15
       + Array.prototype.splice : splice() 메서드는 배열의 기존 요소를 삭제 또는 교체 하거나 새 요소를 추가여 배열의 내용을 변경
+      + debounce function
+     
+  - [x] 13.Slide In on Scroll
+    - check-date : 2019-03-15 
+      + window.scrollY : 수직으로 몇 픽셀만큼 스크롤되었는지를 반환
+      + window.innerHeight : 참조 url (https://sometimes-n.tistory.com/22) 
        
-  - [ ] 13.Slide In on Scroll
   - [ ] 14.Object and Arrays - Reference VS Copy
   - [ ] 15.LocalStorage and Event Delegation
   - [ ] 16.CSS Text Shadow Mouse Move Effect
