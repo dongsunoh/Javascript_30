@@ -74,7 +74,7 @@
   
   - [x] 12.Key Sequence Detection (KONAMI CODE)
     - check-date : 2019-03-15
-      + Array.prototype.splice : splice() 메서드는 배열의 기존 요소를 삭제 또는 교체 하거나 새 요소를 추가여 배열의 내용을 변경
+      + Array.prototype.slice : slice() 메서드는 어떤 배열의 begin부터 end까지(end 미포함)에 대한 얕은 복사본을 새로운 배열 객체로 반환합니다. 원본 배열은 수정되지 않습니다.
       + debounce function
      
   - [x] 13.Slide In on Scroll
