@@ -82,7 +82,12 @@
       + window.scrollY : 수직으로 몇 픽셀만큼 스크롤되었는지를 반환
       + window.innerHeight : 참조 url (https://sometimes-n.tistory.com/22) 
        
-  - [ ] 14.Object and Arrays - Reference VS Copy
+  - [x] 14.Object and Arrays - Reference VS Copy
+    - check-date : 2019-03-16
+      + Array.prototype.concat : concat() 메서드는 인자로 주어진 배열이나 값들을 기존 배열에 합쳐서 새 배열을 반환합니다. 
+      + Object.assign : Object.assign() 메소드는 열거할 수 있는 하나 이상의 출처 객체로부터 대상 객체로 속성을 복사할 때 사용합니다. 대상 객체를 반환합니다. (**객체 값 복사 시 참조 값이 복사 되는 점을 유의해야 함.**)
+      + JSON.parse(JSON.stringify(object)) : deep clone을 통하여 객체 복사 시 객체 참조값이 복사 안되도록 처리
+       
   - [ ] 15.LocalStorage and Event Delegation
   - [ ] 16.CSS Text Shadow Mouse Move Effect
   - [ ] 17.Sorting Band Names without articles
