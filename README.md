@@ -88,7 +88,11 @@
       + Object.assign : Object.assign() 메소드는 열거할 수 있는 하나 이상의 출처 객체로부터 대상 객체로 속성을 복사할 때 사용합니다. 대상 객체를 반환합니다. (**객체 값 복사 시 참조 값이 복사 되는 점을 유의해야 함.**)
       + JSON.parse(JSON.stringify(object)) : deep clone을 통하여 객체 복사 시 객체 참조값이 복사 안되도록 처리
        
-  - [ ] 15.LocalStorage and Event Delegation
+  - [x] 15.LocalStorage and Event Delegation
+    - check-date : 2019-03-17
+      + preventDefault : 기본 이벤트 기능을 사용하지 않음.
+      + form.reset : reset()은 form을 초기 상태로 다시 놓음.
+      
   - [ ] 16.CSS Text Shadow Mouse Move Effect
   - [ ] 17.Sorting Band Names without articles
   - [ ] 18.Tally String Times with Reduce
