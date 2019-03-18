@@ -89,11 +89,14 @@
       + JSON.parse(JSON.stringify(object)) : deep clone을 통하여 객체 복사 시 객체 참조값이 복사 안되도록 처리
        
   - [x] 15.LocalStorage and Event Delegation
-    - check-date : 2019-03-17
+    - check-date : 2019-03-17~2019-03-18
       + preventDefault : 기본 이벤트 기능을 사용하지 않음.
       + form.reset : reset()은 form을 초기 상태로 다시 놓음.
-      
-  - [ ] 16.CSS Text Shadow Mouse Move Effect
+      + [ ] homework: Need for All checked and All unchecked function.
+   
+  - [x] 16.CSS Text Shadow Mouse Move Effect
+    - check-date : 2019-03-18
+         
   - [ ] 17.Sorting Band Names without articles
   - [ ] 18.Tally String Times with Reduce
   - [ ] 19.Unreal Webcam Fun
