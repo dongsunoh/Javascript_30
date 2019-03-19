@@ -92,7 +92,7 @@
     - check-date : 2019-03-17~2019-03-18
       + preventDefault : 기본 이벤트 기능을 사용하지 않음.
       + form.reset : reset()은 form을 초기 상태로 다시 놓음.
-      + [ ] homework: Need for All checked and All unchecked function.
+      + [x] homework: Need for All checked and All unchecked function.
    
   - [x] 16.CSS Text Shadow Mouse Move Effect
     - check-date : 2019-03-18

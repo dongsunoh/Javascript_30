@@ -22,6 +22,10 @@
     <form class="add-items">
       <input type="text" name="item" placeholder="Item Name" required>
       <input type="submit" value="+ Add Item">
+      <div class="btn__row">
+        <input type="button" value="All Check" class="js-all-check-btn all-check-btn">
+        <input type="button" value="All UnCheck" class="js-all-uncheck-btn all-uncheck-btn">
+      </div>
     </form>
   </div>
 
@@ -31,6 +35,9 @@
   const addItems = document.querySelector('.add-items');
   const itemsList = document.querySelector('.plates');
   const items = JSON.parse(localStorage.getItem(ITEM_LS)) || [];
+
+  const allCheck = document.querySelector('.js-all-check-btn');
+  const allUnCheck = document.querySelector('.js-all-uncheck-btn');
 
   function addItem(event) {
     event.preventDefault();
@@ -66,9 +73,27 @@
     populateList(items, itemsList);
   }
 
+  function allCheckItem(event) {
+    items.forEach(item => {
+      item.done = true;
+    });
+    localStorage.setItem(ITEM_LS, JSON.stringify(items));
+    populateList(items, itemsList);
+  }
+
+  function allUnCheckItem(event) {
+     items.forEach(item => {
+      item.done = false;
+    });
+    localStorage.setItem(ITEM_LS, JSON.stringify(items));
+    populateList(items, itemsList);
+  }
+
   addItems.addEventListener('submit', addItem);
   itemsList.addEventListener('click', toggleDone);
-  
+  allCheck.addEventListener('click', allCheckItem); 
+  allUnCheck.addEventListener('click', allUnCheckItem); 
+
   populateList(items, itemsList);
 
 </script>
