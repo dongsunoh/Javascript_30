@@ -97,7 +97,9 @@
   - [x] 16.CSS Text Shadow Mouse Move Effect
     - check-date : 2019-03-18
          
-  - [ ] 17.Sorting Band Names without articles
+  - [x] 17.Sorting Band Names without articles
+    - check-date : 2019-03-20
+   
   - [ ] 18.Tally String Times with Reduce
   - [ ] 19.Unreal Webcam Fun
   - [ ] 20.Native Speech Recognition
