@@ -103,7 +103,9 @@
   - [x] 18.Tally String Times with Reduce
     - check-date : 2019-03-20
         
-  - [ ] 19.Unreal Webcam Fun
+  - [x] 19.Unreal Webcam Fun
+    - check-date : 2019-03-21
+      +    
   - [ ] 20.Native Speech Recognition
   - [ ] 21.Geolocation based Speedometer and Compass
   - [ ] 22.Follow Along Links
