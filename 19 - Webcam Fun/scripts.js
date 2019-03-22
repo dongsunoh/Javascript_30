@@ -42,3 +42,6 @@ function takePhoto() {
 }
 
 getVideo();
+
+// 지정된 미디어 유형을 재생할 수 있는지 여부를 결정합니다.
+video.addEventListener('canplay', paintToCanvas);
