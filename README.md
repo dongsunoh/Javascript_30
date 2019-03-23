@@ -104,8 +104,11 @@
     - check-date : 2019-03-20
         
   - [x] 19.Unreal Webcam Fun
-    - check-date : 2019-03-21
-      +    
+    - check-date : 2019-03-21 ~ 2019-03-23
+      + navigator.mediaDevices.getUserMedia({ video: true, audio: false }).then() : cam 정보 가져오기.
+      + video.addEventListener("canplay", paintToCanvas) : 지정된 미디어 유형을 재생할 수 있는지 여부를 결정합니다.
+      + canvas 캡쳐 기능.
+       
   - [ ] 20.Native Speech Recognition
   - [ ] 21.Geolocation based Speedometer and Compass
   - [ ] 22.Follow Along Links
