@@ -109,7 +109,11 @@
       + video.addEventListener("canplay", paintToCanvas) : 지정된 미디어 유형을 재생할 수 있는지 여부를 결정합니다.
       + canvas 캡쳐 기능.
        
-  - [ ] 20.Native Speech Recognition
+  - [x] 20.Native Speech Recognition
+    - check-date : 2019-03-24
+      + window.webkitSpeechRecognition : chrome 음성인식
+      + html contenteditable 속성 : HTML5 에서는 어떤 엘러먼트라도 수정이 가능
+ 
   - [ ] 21.Geolocation based Speedometer and Compass
   - [ ] 22.Follow Along Links
   - [ ] 23.Speech Synthesis
