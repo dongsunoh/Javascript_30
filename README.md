@@ -116,8 +116,11 @@
  
   - [x] 21.Geolocation based Speedometer and Compass
     - check-date : 2019-03-24
-      +   
-  - [ ] 22.Follow Along Links
+   
+  - [x] 22.Follow Along Links
+    - check-date : 2019-03-24
+      + getBoundingClientRect() : 위치 및 크기 값 가져오기
+          
   - [ ] 23.Speech Synthesis
   - [ ] 24.Sticky Nav
   - [ ] 25.Event Capture, Propagation, Bubbing and Once
