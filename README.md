@@ -114,7 +114,9 @@
       + window.webkitSpeechRecognition : chrome 음성인식
       + html contenteditable 속성 : HTML5 에서는 어떤 엘러먼트라도 수정이 가능
  
-  - [ ] 21.Geolocation based Speedometer and Compass
+  - [x] 21.Geolocation based Speedometer and Compass
+    - check-date : 2019-03-24
+      +   
   - [ ] 22.Follow Along Links
   - [ ] 23.Speech Synthesis
   - [ ] 24.Sticky Nav
