@@ -126,7 +126,9 @@
       + new SpeechSynthesisUtterance : 음성 서비스
       + speechSynthesis 전역객체로 보여짐.
        
-  - [ ] 24.Sticky Nav
+  - [x] 24.Sticky Nav
+    - check-date : 2019-03-25
+      +   
   - [ ] 25.Event Capture, Propagation, Bubbing and Once
   - [ ] 26.Stripe Follow Along Dropdown
   - [ ] 27.CLick and Drag to Scroll
