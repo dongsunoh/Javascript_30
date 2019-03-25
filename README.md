@@ -121,7 +121,11 @@
     - check-date : 2019-03-24
       + getBoundingClientRect() : 위치 및 크기 값 가져오기
           
-  - [ ] 23.Speech Synthesis
+  - [x] 23.Speech Synthesis
+    - check-date : 2019-03-25
+      + new SpeechSynthesisUtterance : 음성 서비스
+      + speechSynthesis 전역객체로 보여짐.
+       
   - [ ] 24.Sticky Nav
   - [ ] 25.Event Capture, Propagation, Bubbing and Once
   - [ ] 26.Stripe Follow Along Dropdown
