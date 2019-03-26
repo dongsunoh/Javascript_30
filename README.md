@@ -137,7 +137,11 @@
        + capture : 버블링 발생 (true : 가장 상위에 있는 엘리먼트 순서로 출력 됨)
        + once : 한번 클릭하면 이벤트가 사라짐
      
-  - [ ] 26.Stripe Follow Along Dropdown
+  - [x] 26.Stripe Follow Along Dropdown
+    - check-date : 2019-03-26
+      + trigger.addEventListener('mouseenter', function)
+      + trigger.addEventListener('mouseleave', function)
+          
   - [ ] 27.CLick and Drag to Scroll
   - [ ] 28.Countdown Clock
   - [ ] 29.Whack A Mole Game
