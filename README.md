@@ -128,8 +128,15 @@
        
   - [x] 24.Sticky Nav
     - check-date : 2019-03-25
-      +   
-  - [ ] 25.Event Capture, Propagation, Bubbing and Once
+         
+  - [x] 25.Event Capture, Propagation, Bubbing and Once
+    - check-date : 2019-03-26
+    +  event.stopPropagation();  // stop bubbling , 버블링 중지
+    +  event.preventDefault() : 이벤트를 취소할 수 있는 경우, 이벤트의 전파를 막지않고 그 이벤트를 취소합니다.
+    +  addEventListener Option
+       + capture : 버블링 발생 (true : 가장 상위에 있는 엘리먼트 순서로 출력 됨)
+       + once : 한번 클릭하면 이벤트가 사라짐
+     
   - [ ] 26.Stripe Follow Along Dropdown
   - [ ] 27.CLick and Drag to Scroll
   - [ ] 28.Countdown Clock

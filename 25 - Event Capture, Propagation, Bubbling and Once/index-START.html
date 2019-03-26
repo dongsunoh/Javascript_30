@@ -42,6 +42,26 @@
 
 <button></button>
 <script>
+  const divs = document.querySelectorAll('div');
+  const button = document.querySelector('button');
+
+  function logText(event) {
+    console.log(this.classList.value);
+    event.stopPropagation();  // stop bubbling , 버블링 중지
+  }
+
+  // document.body.addEventListener('click', logText);
+
+  divs.forEach( div => div.addEventListener('click', logText, {
+    capture: false, // true : 가장 상위에 있는 엘리먼트 순서로 출력 됨. (버블링 발생)
+    once: true  //  한번 클릭하면 이벤트가 사라짐..
+  }));
+
+  button.addEventListener('click', () => {
+    console.log('click!!!!!!');
+  }, {
+    once: true
+  });
 
 </script>
 </body>
