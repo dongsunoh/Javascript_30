@@ -149,7 +149,11 @@
       + slider.addEventListener('mouseup', () => { });
       + slider.addEventListener('mousemove', () => { }); 
         
-  - [ ] 28.Countdown Clock
-  - [ ] 29.Whack A Mole Game
-  - [ ] 30.That's All Folks!
+  - [x] 28.Video Speed Controller UI 
+    - check-date : 2019-03-27
+      + video.playbackRate : 속도 조절
+       
+  - [ ] 29.Countdown Clock  
+  - [ ] 30.Whack A Mole Game
+  - [ ] 31.That's All Folks!
 
