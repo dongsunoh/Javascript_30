@@ -142,7 +142,13 @@
       + trigger.addEventListener('mouseenter', function)
       + trigger.addEventListener('mouseleave', function)
           
-  - [ ] 27.CLick and Drag to Scroll
+  - [x] 27.CLick and Drag to Scroll
+    - check-date : 2019-03-27
+      + slider.addEventListener('mousedown', () =>{});
+      + slider.addEventListener('mouseleave', () => { });
+      + slider.addEventListener('mouseup', () => { });
+      + slider.addEventListener('mousemove', () => { }); 
+        
   - [ ] 28.Countdown Clock
   - [ ] 29.Whack A Mole Game
   - [ ] 30.That's All Folks!
