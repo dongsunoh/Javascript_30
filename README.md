@@ -153,7 +153,10 @@
     - check-date : 2019-03-27
       + video.playbackRate : 속도 조절
        
-  - [ ] 29.Countdown Clock  
+  - [x] 29.Countdown Clock
+    - check-date : 2019-03-28
+      + document.title : 타이틀 탭 이름 변경
+      + form 은 document.formname 으로 사용 가능    
   - [ ] 30.Whack A Mole Game
   - [ ] 31.That's All Folks!
 
